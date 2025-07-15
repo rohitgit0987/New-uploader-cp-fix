@@ -669,12 +669,12 @@ async def help_button(client, callback_query):
         f"┣⪼• Supports batch processing\n\n"
         f"╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n"
         f"╭────────⊰◆⊱────────╮\n"   
-        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [STRANGER BOY](https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg) 💻\n"
+        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : [STRANGER BOY](https://t.me/Strangerboy27_bot_strangerboy) 💻\n"
         f"╰────────⊰◆⊱────────╯\n"
         )
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_00000000fc2461fbbdd6bc500cecbff8_conversation_id6874702c-9760-800e-b0bf-8e0bcf8a3833message_id964012ce-7ef5-4ad4-88e0-1c41ed240c03-1-1.jpg",
+      media="https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg",
       caption=caption
     ),
     reply_markup=keyboard
@@ -701,7 +701,7 @@ async def help_button(client, callback_query):
     
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_00000000fc2461fbbdd6bc500cecbff8_conversation_id6874702c-9760-800e-b0bf-8e0bcf8a3833message_id964012ce-7ef5-4ad4-88e0-1c41ed240c03-1-1.jpg",
+      media="https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg",
       caption=caption
     ),
     reply_markup=keyboard
@@ -735,7 +735,7 @@ async def upgrade_button(client, callback_query):
     
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://envs.sh/GVI.jpg",
+      media="https://i.ibb.co/Swd0WDW9/photo-2025-05-09-20-09-39-7502540716233457668.jpg",
       caption=caption
     ),
     reply_markup=keyboard
@@ -755,7 +755,7 @@ async def feature_button(client, callback_query):
   ])
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_000000002d44622f856a002a219cf27aconversation_id68747543-56d8-800e-ae47-bb6438a09851message_id8e8cbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+      media="https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg",
       caption=caption
     ),
     reply_markup=keyboard
@@ -767,7 +767,7 @@ async def pin_button(client, callback_query):
   caption = f"**Auto Pin 📌 Batch Name :**\n\nAutomatically Pins the Batch Name in Channel or Group, If Starting from the First Link."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_000000002d44622f856a002a219cf27aconversation_id68747543-56d8-800e-ae47-bb6438a09851message_id8e8cbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+      media="https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg",
       caption=caption
       ),
       reply_markup=keyboard
@@ -779,7 +779,7 @@ async def watermark_button(client, callback_query):
   caption = f"**Custom Watermark :**\n\nSet Your Own Custom Watermark on Videos for Added Personalization."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_000000002d44622f856a002a219cf27aconversation_id68747543-56d8-800e-ae47-bb6438a09851message_id8e8cbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+      media="https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg",
       caption=caption
       ),
       reply_markup=keyboard
@@ -792,7 +792,7 @@ async def restart_button(client, callback_query):
   caption = f"**🔄 Resat Command:**\n\nIf You Want to Resat Your Bot, Simply Use Command /resat."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_000000002d44622f856a002a219cf27aconversation_id68747543-56d8-800e-ae47-bb6438a09851message_id8e8cbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+      media="https://i.ibb.co/0p3pmkwn/Angel.jpg",
       caption=caption
       ),
       reply_markup=keyboard
@@ -804,7 +804,7 @@ async def pin_button(client, callback_query):
   caption = f"**🖨️ Bot Working Logs:**\n\n◆/logs - Bot Send Working Logs in .txt File."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_000000002d44622f856a002a219cf27aconversation_id68747543-56d8-800e-ae47-bb6438a09851message_id8e8cbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+      media="https://i.ibb.co/KjNBPrtk/STRANGER-BOY.jpg",
       caption=caption
       ),
       reply_markup=keyboard
@@ -816,7 +816,7 @@ async def custom_button(client, callback_query):
   caption = f"**🖋️ Custom File Name:**\n\nSupport for Custom Name before the File Extension.\nAdd name ..when txt is uploading"
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_000000002d44622f856a002a219cf27aconversation_id68747543-56d8-800e-ae47-bb6438a09851message_id8e8cbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+      media="https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg",
       caption=caption
       ),
       reply_markup=keyboard
@@ -828,7 +828,7 @@ async def titlle_button(client, callback_query):
   caption = f"**Custom Title Feature :**\nAdd and customize titles at the starting\n**NOTE 📍 :** The Titile must enclosed within (Title), Best For appx's .txt file."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_000000002d44622f856a002a219cf27aconversation_id68747543-56d8-800e-ae47-bb6438a09851message_id8e8cbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+      media="https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg",
       caption=caption
       ),
       reply_markup=keyboard
@@ -840,7 +840,7 @@ async def pin_button(client, callback_query):
   caption = f"**📢 Broadcasting Support:**\n\n◆/broadcast - 📢 Broadcast to All Users.\n◆/broadusers - 👁️ To See All Broadcasting User"
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_000000002d44622f856a002a219cf27aconversation_id68747543-56d8-800e-ae47-bb6438a09851message_id8e8cbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+      media="https://i.ibb.co/Swd0WDW9/photo-2025-05-09-20-09-39-7502540716233457668.jpg",
       caption=caption
       ),
       reply_markup=keyboard
@@ -852,7 +852,7 @@ async def editor_button(client, callback_query):
   caption = f"**🤖 Available Commands 🗓️**\n◆/t2t for text to .txt file\n"
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://tinypic.host/images/2025/07/14/file_000000002d44622f856a002a219cf27aconversation_id68747543-56d8-800e-ae47-bb6438a09851message_id8e8cbfb5-ea6c-4f59-974a-43bdf87130c0.png",
+      media="https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg",
       caption=caption
       ),
       reply_markup=keyboard
@@ -864,7 +864,7 @@ async def y2t_button(client, callback_query):
   caption = f"**YouTube Commands:**\n\n◆/ytm - 🎶 YT .txt → .mp3 downloader\n◆/yt2m - 🎵 YT link → .mp3 downloader\n◆/y2t - 🔪 YouTube Playlist or Web Search → .txt Converter"
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://envs.sh/GVi.jpg",
+      media="https://i.ibb.co/hxQ73ZYw/photo-2025-04-12-18-46-28-7492500010408345604.jpg",
       caption=caption
       ),
       reply_markup=keyboard
@@ -1196,12 +1196,12 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-                cc = f'⛧═════ Vid Id 🌀 {str(count).zfill(3)} ═════⛧\n**👨‍💻 Title :** `{name1} [{res}p].mkv`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**👨‍💻 Powered By:══➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"'
-                cc1 = f'⛧═════ Pdf Id 🌀 {str(count).zfill(3)} ═════⛧\n**💳 File Title :** `{name1}.pdf`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**👨‍💻 Powered By:══➤**[{CR}](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"'
-                cczip = f'⛧═════ Zip Id 🌀 {str(count).zfill(3)} ═════⛧\n**👝 Zip Title :** `{name1}.zip`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**👨‍💻 Powered By:══➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"' 
-                ccimg = f'⛧═════ Img Id 🌀 {str(count).zfill(3)} ═════⛧\n**📊 Img Title :** `{name1}.jpg`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**👨‍💻 Powered By:══➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"'
-                ccm = f'⛧═════ Audio Id 🌀 {str(count).zfill(3)} ═════⛧\n**🎧 Audio Title :** `{name1}.mp3`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**👨‍💻 Powered By:══➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"'
-                cchtml = f'⛧═════ Html Id 🌀 {str(count).zfill(3)} ═════⛧\n**📮 Html Title :** `{name1}.html`\n<blockquote><b>Batch Name :</b> {b_name}</blockquote>\n\n**👨‍💻 Powered By:══➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"'
+                cc = f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n**╭━━━━━━━━━━━━━ ❀° ━━━╮┣⪼𝑽𝒊𝒅𝒆𝒐 👨‍💻 𝑻𝒊𝒕𝒍𝒆 :** `{name1} [{res}p].mkv`\n\n```-┈━═.•°✅ STRANGER ✨𝑩𝒂𝒕𝒄𝒉 ✅°•.═━┈-```\n<blockquote><b>💠 §†RÄñGÈ 💁‍♂️</b> {b_name}</blockquote>\n\n**┣⪼§†RÄñGÈ ÚþLÖÄÐÈR ß¥ ➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"'
+                cc1 = f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n**╭━━━━━━━━━━━━━ ❀° ━━━╮┣⪼💾 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.pdf`\n\n```-┈━═.•°✅ STRANGER ✨𝑩𝒂𝒕𝒄𝒉 ✅°•.═━┈-```\n<blockquote><b>💠 ѕтяαηgє 💁‍♂️</b> {b_name}</blockquote>\n\n**┣⪼ѕтяαηgє υρℓσα∂єя ву ➤**[{CR}](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"'
+                cczip = f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n**╭━━━━━━━━━━━━━ ❀° ━━━╮┣⪼👝 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.zip`\n\n```-┈━═.•°✅ STRANGER ✨𝑩𝒂𝒕𝒄𝒉 ✅°•.═━┈-```\n<blockquote><b>💠 ʂɬཞąŋɠɛ 💁‍♂️</b> {b_name}</blockquote>\n\n**┣⪼§†RÄñGÈ ÚþLÖÄÐÈR ß¥ ➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"' 
+                ccimg = f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n**╭━━━━━━━━━━━━━ ❀° ━━━╮┣⪼🌌 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.jpg`\n\n```-┈━═.•°✅ STRANGER ✨𝑩𝒂𝒕𝒄𝒉 ✅°•.═━┈-```\n<blockquote><b>💠 ֆȶʀǟռɢɛ 💁‍♂️</b> {b_name}</blockquote>\n\n**┣⪼ֆȶʀǟռɢɛ ʊքʟօǟɖɛʀ ɮʏ ➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"'
+                ccm = f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n**╭━━━━━━━━━━━━━ ❀° ━━━╮┣⪼🎧 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.mp3`\n\n```-┈━═.•°✅ STRANGER ✨𝑩𝒂𝒕𝒄𝒉 ✅°•.═━┈-```\n<blockquote><b>💠 §†RÄñGÈ 💁‍♂️</b> {b_name}</blockquote>\n\n**┣⪼𝑬𝒙𝒕𝒓𝒂𝒄𝒕𝒆𝒅 𝑩𝒚 ➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"'
+                cchtml = f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n**╭━━━━━━━━━━━━━ ❀° ━━━╮┣⪼🤖 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.html`\n\n```-┈━═.•°✅ STRANGER ✨𝑩𝒂𝒕𝒄𝒉 ✅°•.═━┈-```\n<blockquote><b>💠 ʂɬཞąŋɠɛ 💁‍♂️</b> {b_name}</blockquote>\n\n**┣⪼ʂɬཞąŋɠɛ ų℘Ɩơąɖɛཞ ცყ ➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"'
                   
                 if "drive" in url:
                     try:
@@ -1309,7 +1309,7 @@ async def txt_handler(bot: Client, m: Message):
                            f"┣🔗𝐈𝐧𝐝𝐞𝐱 » {count}/{len(links)}\n┃\n" \
                            f"╰━🖇️𝐑𝐞𝐦𝐚𝐢𝐧 » {remaining_links}\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━\n" \
-                           f"<blockquote><b>⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Eɴᴄʀʏᴘᴛᴇᴅ Sᴛᴀʀᴛᴇᴅ...⏳</b></blockquote>\n┃\n" \
+                           f"<blockquote><b>⚡[(『 WELCOME STRANGER 』🙋 ...⏳)](https://i.ibb.co/hxQ73ZYw/photo-2025-04-12-18-46-28-7492500010408345604.jpg)</b></blockquote>\n┃\n" \
                            f'┣💃𝐂𝐫𝐞𝐝𝐢𝐭 » {CR}\n┃\n' \
                            f"╰━📚𝐁𝐚𝐭𝐜𝐡 » {b_name}\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
@@ -1319,7 +1319,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
+                           f"╰━[🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 🤷‍♂️ 『 WELCOME STRANGER 』🙋](https://i.ibb.co/hxQ73ZYw/photo-2025-04-12-18-46-28-7492500010408345604.jpg)"
                     Show = f"<i><b>Video Downloading</b></i>\n<blockquote><b>{str(count).zfill(3)}) {name1}</b></blockquote>" 
                     prog = await bot.send_message(channel_id, Show, disable_web_page_preview=True)
                     prog1 = await m.reply_text(Show1, disable_web_page_preview=True)
@@ -1339,7 +1339,7 @@ async def txt_handler(bot: Client, m: Message):
                            f"┣🔗𝐈𝐧𝐝𝐞𝐱 » {count}/{len(links)}\n┃\n" \
                            f"╰━🖇️𝐑𝐞𝐦𝐚𝐢𝐧 » {remaining_links}\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━\n" \
-                           f"<blockquote><b>⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳</b></blockquote>\n┃\n" \
+                           f"<blockquote><b>⚡[(『 WELCOME STRANGER 』🙋 ...⏳)](https://i.ibb.co/hxQ73ZYw/photo-2025-04-12-18-46-28-7492500010408345604.jpg)</b></blockquote>\n┃\n" \
                            f'┣💃𝐂𝐫𝐞𝐝𝐢𝐭 » {CR}\n┃\n' \
                            f"╰━📚𝐁𝐚𝐭𝐜𝐡 » {b_name}\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
@@ -1349,7 +1349,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
+                           f"╰━[🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 🤷‍♂️ 『 WELCOME STRANGER 』🙋](https://i.ibb.co/hxQ73ZYw/photo-2025-04-12-18-46-28-7492500010408345604.jpg)"
                     Show = f"<i><b>Video Downloading</b></i>\n<blockquote><b>{str(count).zfill(3)}) {name1}</b></blockquote>"
                     prog = await bot.send_message(channel_id, Show, disable_web_page_preview=True)
                     prog1 = await m.reply_text(Show1, disable_web_page_preview=True)
@@ -1369,7 +1369,7 @@ async def txt_handler(bot: Client, m: Message):
                            f"┣🔗𝐈𝐧𝐝𝐞𝐱 » {count}/{len(links)}\n┃\n" \
                            f"╰━🖇️𝐑𝐞𝐦𝐚𝐢𝐧 » {remaining_links}\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━\n" \
-                           f"<blockquote><b>⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳</b></blockquote>\n┃\n" \
+                           f"<blockquote><b>⚡[(『 WELCOME STRANGER 』🙋 ...⏳)](https://i.ibb.co/hxQ73ZYw/photo-2025-04-12-18-46-28-7492500010408345604.jpg)</b></blockquote>\n┃\n" \
                            f'┣💃𝐂𝐫𝐞𝐝𝐢𝐭 » {CR}\n┃\n' \
                            f"╰━📚𝐁𝐚𝐭𝐜𝐡 » {b_name}\n" \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
@@ -1379,7 +1379,7 @@ async def txt_handler(bot: Client, m: Message):
                            f'╰━━🖇️𝐔𝐫𝐥 » <a href="{url}">**Api Link**</a>\n' \
                            f"━━━━━━━━━━━━━━━━━━━━━━━━━\n" \
                            f"🛑**Send** /stop **to stop process**\n┃\n" \
-                           f"╰━✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
+                           f"╰━[🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 🤷‍♂️ 『 WELCOME STRANGER 』🙋](https://i.ibb.co/hxQ73ZYw/photo-2025-04-12-18-46-28-7492500010408345604.jpg)"
                     Show = f"<i><b>Video Downloading</b></i>\n<blockquote><b>{str(count).zfill(3)}) {name1}</b></blockquote>"
                     prog = await bot.send_message(channel_id, Show, disable_web_page_preview=True)
                     prog1 = await m.reply_text(Show1, disable_web_page_preview=True)
@@ -1623,9 +1623,9 @@ async def text_handler(bot: Client, m: Message):
                         pass
                                 
                 elif 'encrypted.m' in url:    
-                    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
+                    Show = f"**⚡[(『 WELCOME STRANGER 』🙋 ...⏳)](https://i.ibb.co/hxQ73ZYw/photo-2025-04-12-18-46-28-7492500010408345604.jpg)**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
+                           f"[🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 🤷‍♂️ 『 WELCOME STRANGER 』🙋](https://i.ibb.co/hxQ73ZYw/photo-2025-04-12-18-46-28-7492500010408345604.jpg)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.download_and_decrypt_video(url, cmd, name, appxkey)  
                     filename = res_file  
@@ -1635,9 +1635,9 @@ async def text_handler(bot: Client, m: Message):
                     pass
 
                 elif 'drmcdni' in url or 'drm/wv' in url:
-                    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
+                    Show = f"**⚡[(『 WELCOME STRANGER 』🙋 ...⏳)](https://i.ibb.co/hxQ73ZYw/photo-2025-04-12-18-46-28-7492500010408345604.jpg)**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
-                           f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
+                           f"[🙆‍♂️ 𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 🤷‍♂️ 『 WELCOME STRANGER 』🙋](https://i.ibb.co/hxQ73ZYw/photo-2025-04-12-18-46-28-7492500010408345604.jpg)"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
                     res_file = await helper.decrypt_and_merge_video(mpd, keys_string, path, name, raw_text2)
                     filename = res_file
@@ -1647,7 +1647,7 @@ async def text_handler(bot: Client, m: Message):
                     pass
      
                 else:
-                    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅɪɴɢ Sᴛᴀʀᴛᴇᴅ...⏳**\n" \
+                    Show = f"**⚡[(『 WELCOME STRANGER 』🙋 ...⏳)](https://i.ibb.co/hxQ73ZYw/photo-2025-04-12-18-46-28-7492500010408345604.jpg)**\n" \
                            f"🔗𝐋𝐢𝐧𝐤 » {url}\n" \
                            f"✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}"
                     prog = await m.reply_text(Show, disable_web_page_preview=True)
