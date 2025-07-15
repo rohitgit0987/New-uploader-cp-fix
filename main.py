@@ -66,7 +66,7 @@ photozip = 'https://envs.sh/cD_.jpg'
 BUTTONSCONTACT = InlineKeyboardMarkup([[InlineKeyboardButton(text="📞 Contact", url="https://t.me/Strangerboy27_bot_strangerboy")]])
 keyboard = InlineKeyboardMarkup(
     [
-        [InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Strangerboy27_bot_strangerboy"), InlineKeyboardButton(text="🛠️ Repo", url="https://t.me/Strangerboy27_bot_strangerboy")],
+        [InlineKeyboardButton(text="🛠️ Help", url="https://t.me/Strangerboy27_bot_strangerboy"), InlineKeyboardButton(text="💁‍♂️ OWNER", url="https://t.me/Strangerboy27_bot_strangerboy")],
     ]
 )
 
@@ -335,7 +335,7 @@ async def yt2m_handler(bot: Client, m: Message):
     input: Message = await bot.listen(editable.chat.id)
     youtube_link = input.text.strip()
     await input.delete(True)
-    Show = f"**⚡Dᴏᴡɴʟᴏᴀᴅ Sᴛᴀʀᴛᴇᴅ...⏳**\n\n🔗𝐔𝐑𝐋 »  {youtube_link}\n\n✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}🐦"
+    Show = f"**⚡§†RÄñGÈ ÚþLÖÄÐÈR **\n\n🔗𝐔𝐑𝐋 »  {youtube_link}\n\n✦𝐁𝐨𝐭 𝐌𝐚𝐝𝐞 𝐁𝐲 ✦ {CREDIT}🐦"
     await editable.edit(Show, disable_web_page_preview=True)
     await asyncio.sleep(10)
     try:
@@ -500,7 +500,7 @@ async def start(bot, m: Message):
     user = await bot.get_me()
 
     mention = user.mention
-    caption = f"🌟 Welcome {m.from_user.mention} ! 🌟"
+    caption = f"🌟 Welcome 【『 ʂɬཞąŋɠɛ ų℘Ɩơąɖɛཞ  』】{m.from_user.mention} ! 🌟"
     start_message = await bot.send_photo(
         chat_id=m.chat.id,
         photo="https://tinypic.host/images/2025/07/14/IMG_20250714_161041_194.jpg",
@@ -509,12 +509,12 @@ async def start(bot, m: Message):
 
     await asyncio.sleep(1)
     await start_message.edit_text(
-        f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n"
+        f"🌟 Welcome 【『 ֆȶʀǟռɢɛ ʊքʟօǟɖɛʀ  』】 {m.from_user.first_name}! 🌟\n\n"
     )
 
     await asyncio.sleep(1)
     await start_message.edit_text(
-        f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
+        f"🌟 Welcome 【『 ʂɬཞąŋɠɛ ų℘Ɩơąɖɛཞ  』】 {m.from_user.first_name}! 🌟\n\n" +
         f"Initializing Uploader bot... 🤖\n\n"
         f"Progress: [⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️⬜️]\n\n"
         f"╭━━━━━━ INITIALIZING ━━━━━━➣\n"
@@ -528,7 +528,7 @@ async def start(bot, m: Message):
 
     await asyncio.sleep(1)
     await start_message.edit_text(
-        f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
+        f"🌟 Welcome 【『 ֆȶʀǟռɢɛ ʊքʟօǟɖɛʀ  』】 {m.from_user.first_name}! 🌟\n\n" +
         f"Loading features... ⏳\n\n"
         f"Progress: [🟥🟥🟥⬜️⬜️⬜️⬜️⬜️⬜️⬜️] 25%\n\n"
         f"╭━━━━━━ LODING ━━━━━━➣\n"
@@ -541,7 +541,7 @@ async def start(bot, m: Message):
     
     await asyncio.sleep(1)
     await start_message.edit_text(
-        f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
+        f"🌟 Welcome 【『 ʂɬཞąŋɠɛ ų℘Ɩơąɖɛཞ  』】{m.from_user.first_name}! 🌟\n\n" +
         f"This may take a moment, sit back and relax! 😊\n\n"
         f"Progress: [🟧🟧🟧🟧🟧⬜️⬜️⬜️⬜️⬜️] 50%\n\n"
         f"╭━━━━━━ PREPARING ━━━━━━➣\n"
@@ -554,7 +554,7 @@ async def start(bot, m: Message):
 
     await asyncio.sleep(1)
     await start_message.edit_text(
-        f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
+        f"🌟 Welcome 【『 §†RÄñGÈ ÚþLÖÄÐÈR  』】{m.from_user.first_name}! 🌟\n\n" +
         f"Checking subscription status... 🔍\n\n"
         f"Progress: [🟨🟨🟨🟨🟨🟨🟨🟨⬜️⬜️] 75%\n\n"
        f"╭━━━━━━ FINALIZING ━━━━━━➣\n"
@@ -574,7 +574,7 @@ async def start(bot, m: Message):
         ])
         
         await start_message.edit_text(
-            f"🌟 Welcome {m.from_user.first_name}! 🌟\n\n" +
+            f"🌟 Welcome 【『 §†RÄñGÈ ÚþLÖÄÐÈR 』】 {m.from_user.first_name}! 🌟\n\n" +
             f"Great! You are a premium member!\n"
             f"Use button : **🖱️ Commands** to get started 🌟\n\n"
             f"If you face any problem contact -  [{CREDIT}⁬](tg://openmessage?user_id={OWNER})\n", disable_web_page_preview=True, reply_markup=keyboard
@@ -587,7 +587,7 @@ async def start(bot, m: Message):
             [InlineKeyboardButton(text="📞 Contact", url=f"tg://openmessage?user_id={OWNER}"), InlineKeyboardButton(text="🛠️ STRANGER", url="https://t.me/Strangerboy27_bot_strangerboy")],
         ])
         await start_message.edit_text(
-           f" 🎉 Welcome {m.from_user.first_name} to DRM Bot! 🎉\n\n"
+           f" 🎉 Welcome 【『 THE BOYS 』】{m.from_user.first_name} to DRM Bot! 🎉\n\n"
            f"**You are currently using the free version.** 🆓\n\n<blockquote expandable>I'm here to make your life easier by downloading videos from your **.txt** file 📄 and uploading them directly to Telegram!</blockquote>\n\n**Want to get started? Press /id**\n\n💬 Contact : [{CREDIT}⁬](tg://openmessage?user_id={OWNER}) to Get The Subscription 🎫 and unlock the full potential of your new bot! 🔓\n", disable_web_page_preview=True, reply_markup=keyboard
     )
 
@@ -595,7 +595,7 @@ async def start(bot, m: Message):
 async def back_to_main_menu(client, callback_query):
     user_id = callback_query.from_user.id
     first_name = callback_query.from_user.first_name
-    caption = f"✨ **Welcome [{first_name}](tg://user?id={user_id}) in My uploader bot**"
+    caption = f"✨ **Welcome 【『 HERO 』】[{first_name}](tg://user?id={user_id}) in My uploader bot**"
     keyboard = InlineKeyboardMarkup([
             [InlineKeyboardButton("💎 Features", callback_data="feat_command"), InlineKeyboardButton("🖱️Commands", callback_data="cmd_command")],
             [InlineKeyboardButton("💳 Plans", callback_data="upgrade_command")],
@@ -615,7 +615,7 @@ async def back_to_main_menu(client, callback_query):
 async def cmd(client, callback_query):
     user_id = callback_query.from_user.id
     first_name = callback_query.from_user.first_name
-    caption = f"✨ **Welcome [{first_name}](tg://user?id={user_id})\nChoose Button to select Commands**"
+    caption = f"✨ **Welcome 【『 STRANGER 』】 [{first_name}](tg://user?id={user_id})\nChoose Button to select Commands**"
     keyboard = InlineKeyboardMarkup([
         [InlineKeyboardButton("🚻 User", callback_data="user_command"), InlineKeyboardButton("🚹 Owner", callback_data="owner_command")],
         [InlineKeyboardButton("🔙 Back to Main Menu", callback_data="back_to_main_menu")]
@@ -635,8 +635,8 @@ async def help_button(client, callback_query):
   first_name = callback_query.from_user.first_name
   keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Back to Commands", callback_data="cmd_command")]])
   caption = (
-         f"╭━━━━━━━✦✧✦━━━━━━━╮\n"
-        f" 🔶️🔹️💠[STRANGER BOTS](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)💠🔹️🔶️\n"
+        f"╭━━━━━━━✦✧✦━━━━━━━╮\n"
+        f" 💠[【『 ʂɬཞąŋɠɛ ų℘Ɩơąɖɛཞ ცყ 』】](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)💠\n"
         f"╰━━━━━━━✦✧✦━━━━━━━╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n" 
         f"╭━━━━━━━━━━━━━ ❀° ━━━╮\n"
@@ -686,17 +686,25 @@ async def help_button(client, callback_query):
   first_name = callback_query.from_user.first_name
   keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Back to Commands", callback_data="cmd_command")]])
   caption = (
-        f"👤 𝐁𝐨𝐭 𝐎𝐰𝐧𝐞𝐫 𝐂𝐨𝐦𝐦𝐚𝐧𝐝𝐬\n\n" 
-        f"➥ /addauth xxxx – Add User ID\n" 
-        f"➥ /rmauth xxxx – Remove User ID\n"  
-        f"➥ /users – Total User List\n"  
-        f"➥ /broadcast – For Broadcasting\n"  
-        f"➥ /broadusers – All Broadcasting Users\n"  
-        f"➥ /resat – Resat Bot\n"
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"  
-        f"╭────────⊰◆⊱────────╮\n"   
-        f" ➠ 𝐌𝐚𝐝𝐞 𝐁𝐲 : {CREDIT} 💻\n"
-        f"╰────────⊰◆⊱────────╯\n"
+    f"<b>👑 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦</b>\n\n"
+    
+    f"🔧 <b>Authorization Tools:</b>\n"
+    f"┣ 🆔 <code>/addauth &lt;user_id&gt;</code> – Add Premium User\n"
+    f"┣ ❌ <code>/rmauth &lt;user_id&gt;</code> – Remove User Access\n\n"
+
+    f"📊 <b>Analytics:</b>\n"
+    f"┣ 👥 <code>/users</code> – List of All Users\n"
+    f"┣ 📢 <code>/broadusers</code> – Users With Broadcast Enabled\n\n"
+
+    f"📣 <b>Broadcast:</b>\n"
+    f"┣ 📬 <code>/broadcast</code> – Send Message to All Users\n\n"
+
+    f"🔄 <b>Maintenance:</b>\n"
+    f"┣ ♻️ <code>/resat</code> – Restart Bot\n\n"
+    
+    f"<code>────────────────────────</code>\n"
+    f"🤖 <i>Made with ❤️ by</i> <b>{CREDIT}</b> 💻\n"
+    f"<code>────────────────────────</code>"
   )
     
   await callback_query.message.edit_media(
@@ -713,25 +721,31 @@ async def upgrade_button(client, callback_query):
   first_name = callback_query.from_user.first_name
   keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Back to Main Menu", callback_data="back_to_main_menu")]])
   caption = (
-           f" 🎉 Welcome [{first_name}](tg://user?id={user_id}) to DRM Bot! 🎉\n\n"
-           f"You can have access to download all Non-DRM+AES Encrypted URLs 🔐 including\n\n"
-           f"<blockquote>• 📚 Appx Zip+Encrypted Url\n"
-           f"• 🎓 Classplus DRM+ NDRM\n"
-           f"• 🧑‍🏫 PhysicsWallah DRM\n"
-           f"• 📚 CareerWill + PDF\n"
-           f"• 🎓 Khan GS\n"
-           f"• 🎓 Study Iq DRM\n"
-           f"• 🚀 APPX + APPX Enc PDF\n"
-           f"• 🎓 Vimeo Protection\n"
-           f"• 🎓 Brightcove Protection\n"
-           f"• 🎓 Visionias Protection\n"
-           f"• 🎓 Zoom Video\n"
-           f"• 🎓 Utkarsh Protection(Video + PDF)\n"
-           f"• 🎓 All Non DRM+AES Encrypted URLs\n"
-           f"• 🎓 MPD URLs if the key is known (e.g., Mpd_url?key=key XX:XX)</blockquote>\n\n"
-           f"<b>💵 Monthly Plan: free</b>\n\n"
-           f"If you want to buy membership of the bot, feel free to contact [{CREDIT}](tg://user?id={OWNER})\n"
-    )  
+    f"<b>✨ Welcome,</b> [{first_name}](tg://user?id={user_id})!\n"
+    f"<b>🔓 You're now using the ultimate DRM & Encrypted Downloader Bot!</b>\n\n"
+
+    f"<b>🧩 Supported Platforms:</b>\n"
+    f"<blockquote>"
+    f"🔹 <b>AppX:</b> Zip Links + Encrypted URLs\n"
+    f"🔹 <b>Classplus:</b> DRM / Non-DRM Video Links\n"
+    f"🔹 <b>PhysicsWallah:</b> DRM Videos\n"
+    f"🔹 <b>CareerWill:</b> Videos + Notes PDFs\n"
+    f"🔹 <b>Khan GS Research</b>\n"
+    f"🔹 <b>StudyIQ:</b> DRM Content\n"
+    f"🔹 <b>APPX Encrypted PDFs</b>\n"
+    f"🔹 <b>Vimeo | Brightcove | Zoom</b>\n"
+    f"🔹 <b>VisionIAS | Utkarsh Classes</b>\n"
+    f"🔹 <b>MPD Links (with known keys)</b>\n"
+    f"</blockquote>\n"
+
+    f"💡 <i>Supports AES-encrypted & Non-DRM videos with smart parsing.</i>\n\n"
+
+    f"<b>🛡️ Access:</b> <code>Free Tier</code> ✅\n"
+    f"<b>📞 Contact:</b> [{CREDIT}](tg://user?id={OWNER}) to unlock full features.\n\n"
+    
+    f"🎬 <i>Send your link, .txt file, or encrypted video URL to begin...</i>"
+)
+   
     
   await callback_query.message.edit_media(
     InputMediaPhoto(
@@ -767,7 +781,7 @@ async def pin_button(client, callback_query):
   caption = f"**Auto Pin 📌 Batch Name :**\n\nAutomatically Pins the Batch Name in Channel or Group, If Starting from the First Link."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg",
+      media="https://i.ibb.co/DgRpQhw6/photo-2025-04-30-11-42-22-7499070258104238100.jpg",
       caption=caption
       ),
       reply_markup=keyboard
@@ -816,7 +830,7 @@ async def custom_button(client, callback_query):
   caption = f"**🖋️ Custom File Name:**\n\nSupport for Custom Name before the File Extension.\nAdd name ..when txt is uploading"
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://i.ibb.co/ccV44ZRS/STRANGER-BOY.jpg",
+      media="https://i.ibb.co/200yz6vQ/photo-2025-04-14-13-58-28-7496450658766159936.jpg",
       caption=caption
       ),
       reply_markup=keyboard
@@ -828,7 +842,7 @@ async def titlle_button(client, callback_query):
   caption = f"**Custom Title Feature :**\nAdd and customize titles at the starting\n**NOTE 📍 :** The Titile must enclosed within (Title), Best For appx's .txt file."
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg",
+      media="https://i.ibb.co/zHDXdtCk/photo-2025-04-14-13-58-31-7496450675946029068.jpg",
       caption=caption
       ),
       reply_markup=keyboard
