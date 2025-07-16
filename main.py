@@ -604,7 +604,7 @@ async def back_to_main_menu(client, callback_query):
     
     await callback_query.message.edit_media(
       InputMediaPhoto(
-        media="https://envs.sh/GVI.jpg",
+        media="https://i.ibb.co/C5CV7ykg/STRANGER-BOY.jpg",
         caption=caption
       ),
       reply_markup=keyboard
@@ -769,7 +769,7 @@ async def feature_button(client, callback_query):
   ])
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg",
+      media="https://i.ibb.co/C5CV7ykg/STRANGER-BOY.jpg",
       caption=caption
     ),
     reply_markup=keyboard
