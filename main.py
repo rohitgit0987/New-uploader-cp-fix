@@ -503,7 +503,7 @@ async def start(bot, m: Message):
     caption = f"🌟 Welcome 【『 ʂɬཞąŋɠɛ ų℘Ɩơąɖɛཞ  』】{m.from_user.mention} ! 🌟"
     start_message = await bot.send_photo(
         chat_id=m.chat.id,
-        photo="https://tinypic.host/images/2025/07/14/IMG_20250714_161041_194.jpg",
+        photo="https://i.ibb.co/q3SX4gjQ/STRANGER-BOY.jpg",
         caption=caption
     )
 
@@ -636,7 +636,7 @@ async def help_button(client, callback_query):
   keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Back to Commands", callback_data="cmd_command")]])
   caption = (
         f"╭━━━━━━━✦✧✦━━━━━━━╮\n"
-        f" 💠[【『 ʂɬཞąŋɠɛ ų℘Ɩơąɖɛཞ ცყ 』】](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)💠\n"
+        f" 💠[【『 ʂɬཞąŋɠɛ ų℘Ɩơąɖɛཞ ცყ 』】](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpgo)💠\n"
         f"╰━━━━━━━✦✧✦━━━━━━━╯\n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n" 
         f"╭━━━━━━━━━━━━━ ❀° ━━━╮\n"
@@ -686,7 +686,7 @@ async def help_button(client, callback_query):
   first_name = callback_query.from_user.first_name
   keyboard = InlineKeyboardMarkup([[InlineKeyboardButton("🔙 Back to Commands", callback_data="cmd_command")]])
   caption = (
-    f"<b>👑 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦</b>\n\n"
+    f"<b>[👑 𝗕𝗢𝗧 𝗢𝗪𝗡𝗘𝗥 𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpgo)</b>\n\n"
     
     f"🔧 <b>Authorization Tools:</b>\n"
     f"┣ 🆔 <code>/addauth &lt;user_id&gt;</code> – Add Premium User\n"
@@ -709,7 +709,7 @@ async def help_button(client, callback_query):
     
   await callback_query.message.edit_media(
     InputMediaPhoto(
-      media="https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg",
+      media="https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpgo",
       caption=caption
     ),
     reply_markup=keyboard
