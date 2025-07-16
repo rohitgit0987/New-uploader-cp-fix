@@ -258,7 +258,7 @@ async def download_video(url,cmd, name):
 
 
 async def send_doc(bot: Client, m: Message, cc, ka, cc1, prog, count, name, channel_id):
-    reply = await bot.send_message(channel_id, f"ѕтяαηgє υρℓσα∂єя pdf:\n<pre><code>{name}</code></pre>")
+    reply = await bot.send_message(channel_id, f"ѕтяαηgє υρℓσα∂єя 💾:\n<pre><code>{name}</code></pre>")
     time.sleep(1)
     start_time = time.time()
     await bot.send_document(ka, caption=cc1)
@@ -295,7 +295,7 @@ async def download_and_decrypt_video(url, cmd, name, key):
 async def send_vid(bot: Client, m: Message, cc, filename, thumb, name, prog, channel_id):
     subprocess.run(f'ffmpeg -i "{filename}" -ss 00:00:10 -vframes 1 "{filename}.jpg"', shell=True)
     await prog.delete (True)
-    reply1 = await bot.send_message(channel_id, f"**📩 ʂɬཞąŋɠɛ ų℘Ɩơąɖɛཞ Uploading Video 📩:-**\n<blockquote>**{name}**</blockquote>")
+    reply1 = await bot.send_message(channel_id, f"**📩 ʂɬཞąŋɠɛ ų℘Ɩơąɖɛཞ 👨‍💻 📩:-**\n<blockquote>**{name}**</blockquote>")
     reply = await m.reply_text(f"**Generate Thumbnail:**\n<blockquote>**{name}**</blockquote>")
     try:
         if thumb == "/d":
