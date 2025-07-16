@@ -1210,67 +1210,14 @@ async def txt_handler(bot: Client, m: Message):
                 cmd = f'yt-dlp -f "{ytf}" "{url}" -o "{name}.mp4"'
 
             try:
-    cc = (
-        f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n'
-        f'**╭━━━━━━━━━━━━━ ❀° ━━━╮\n'
-        f'┣⪼𝑽𝒊𝒅𝒆𝒐 👨‍💻 𝑻𝒊𝒕𝒍𝒆 :** `{name1} [{res}p].mkv`\n'
-        f'**┣⪼§†RÄñGÈ Bõť ➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n'
-        f'╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n'
-        f'<blockquote><b>💠 §†RÄñGÈ 💁‍♂️</b> {b_name}</blockquote>\n'
-        f'👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n'
-    )
-
-    cc1 = (
-        f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n'
-        f'**╭━━━━━━━━━━━━━ ❀° ━━━╮\n'
-        f'┣⪼💾 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.pdf`\n'
-        f'**┣⪼ѕтяαηgє Bõť ➤**[{CR}](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)\n'
-        f'╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n'
-        f'<blockquote><b>💠 ѕтяαηgє 💁‍♂️</b> {b_name}</blockquote>\n'
-        f'👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n'
-    )
-
-    cczip = (
-        f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n'
-        f'**╭━━━━━━━━━━━━━ ❀° ━━━╮\n'
-        f'┣⪼👝 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.zip`\n'
-        f'**┣⪼§†RÄñGÈ Bõť ➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n'
-        f'╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n'
-        f'<blockquote><b>💠 ʂɬཞąŋɠɛ 💁‍♂️</b> {b_name}</blockquote>\n'
-        f'👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n'
-    )
-
-    ccimg = (
-        f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n'
-        f'**╭━━━━━━━━━━━━━ ❀° ━━━╮\n'
-        f'┣⪼🌌 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.jpg`\n'
-        f'**┣⪼ֆȶʀǟռɢɛ Bõť**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n'
-        f'╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n'
-        f'<blockquote><b>💠 ֆȶʀǟռɢɛ 💁‍♂️</b> {b_name}</blockquote>\n'
-        f'👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n'
-    )
-
-    ccm = (
-        f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n'
-        f'**╭━━━━━━━━━━━━━ ❀° ━━━╮\n'
-        f'┣⪼🎧 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.mp3`\n'
-        f'**┣⪼𝑬𝒙𝒕𝒓𝒂𝒄𝒕𝒆𝒅 𝑩𝒚 ➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n'
-        f'╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n'
-        f'<blockquote><b>💠 §†RÄñGÈ 💁‍♂️</b> {b_name}</blockquote>\n'
-        f'👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n'
-    )
-
-    cchtml = (
-        f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n'
-        f'**╭━━━━━━━━━━━━━ ❀° ━━━╮\n'
-        f'┣⪼🤖 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.html`\n'
-        f'<blockquote><b>💠 ʂɬཞąŋɠɛ 💁‍♂️</b> {b_name}</blockquote>\n\n'
-        f'**┣⪼ʂɬཞąŋɠɛ ų℘Ɩơąɖɛཞ ცყ ➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n'
-        f'╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n\n'
-        f'👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n'
-    )
-
-    if "drive" in url:
+                cc = f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n**╭━━━━━━━━━━━━━ ❀° ━━━╮\n┣⪼𝑽𝒊𝒅𝒆𝒐 👨‍💻 𝑻𝒊𝒕𝒍𝒆 :** `{name1} [{res}p].mkv`\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n<blockquote><b>💠 §†RÄñGÈ 💁‍♂️</b> {b_name}</blockquote>\n**★ §†RÄñGÈ Bõť ➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
+                cc1 = f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n**╭━━━━━━━━━━━━━ ❀° ━━━╮\n┣⪼💾 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.pdf`\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n<blockquote><b>💠 ѕтяαηgє 💁‍♂️</b> {b_name}</blockquote>\n**★ ѕтяαηgє Bõť ➤**[{CR}](https://i.ibb.co/ZRvCxd5g/STRANGER-BOY.jpg)\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
+                cczip = f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n**╭━━━━━━━━━━━━━ ❀° ━━━╮\n┣⪼👝 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.zip`\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n<blockquote><b>💠 ʂɬཞąŋɠɛ 💁‍♂️</b> {b_name}</blockquote>\n**★ §†RÄñGÈ Bõť ➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n" 
+                ccimg = f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n**╭━━━━━━━━━━━━━ ❀° ━━━╮\n┣⪼🌌 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.jpg`\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n<blockquote><b>💠 ֆȶʀǟռɢɛ 💁‍♂️</b> {b_name}</blockquote>\n**★ ֆȶʀǟռɢɛ Bõť**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
+                ccm = f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n**╭━━━━━━━━━━━━━ ❀° ━━━╮\n┣⪼🎧 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.mp3`\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n<blockquote><b>💠 §†RÄñGÈ 💁‍♂️</b> {b_name}</blockquote>\n**★ 𝑬𝒙𝒕𝒓𝒂𝒄𝒕𝒆𝒅 𝑩𝒚 ➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
+                cchtml = f'✯ ━━━━❀°𝑳𝒊𝒏𝒌 𝑰𝒅: {str(count).zfill(3)} °❀ ━━━━ ✯\n**╭━━━━━━━━━━━━━ ❀° ━━━╮\n┣⪼🤖 𝑻𝒊𝒕𝒍𝒆 :** `{name1}.html`\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n-┈━═.•°✅STRANGER 𝑩𝒂𝒕𝒄𝒉✅°•.═━┈-\n<blockquote><b>💠 ʂɬཞąŋɠɛ 💁‍♂️</b> {b_name}</blockquote>\n\n**┣⪼ʂɬཞąŋɠɛ ų℘Ɩơąɖɛཞ ცყ ➤**[{CR}](https://i.ibb.co/9m20Ys7k/photo-2025-06-22-13-16-36-7518790252551471136.jpg)\n╰━━━━━━━━━━━━━ ❀° ━━━╯シ\n👾 𝗦𝗧𝗥𝗔𝗡𝗚𝗘𝗥.𝗔𝗜 | 💻 𝗘𝗫𝗣𝗟𝗢𝗜𝗧 𝗦𝗬𝗦𝗧𝗘𝗠\n"
+                  
+                if "drive" in url:
                     try:
                         ka = await helper.download(url, name)
                         copy = await bot.send_document(chat_id=channel_id,document=ka, caption=cc1)
